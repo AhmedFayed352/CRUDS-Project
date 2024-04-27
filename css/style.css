@@ -1,0 +1,21 @@
+body {
+  font-family: "prompt";
+}
+.form-control:focus,
+.form-select:focus {
+  box-shadow: none;
+  border-color: darkcyan !important;
+}
+.logo {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-inline: auto;
+  font-family: "bebas neue";
+}
+.fa-trash-can:hover {
+  animation: fa-shake 2s 1 linear;
+}
+.productImageContainer {
+  height: 150px;
+  overflow: hidden;
+}
